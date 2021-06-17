@@ -42,7 +42,7 @@ bot.on("message" , function (message) {
 
 bot.on("message" , function (message) {
   let args = message.content.trim().split(/ +/g)
-     if (args[0].toLowerCase() === prefix + "sec") {
+     if (args[0].toLowerCase() === prefix + "t!") {
   
   const embed = new Discord.RichEmbed()
   .setTitle("Sécurité du serveur")
@@ -152,7 +152,7 @@ const AntiSpam = new antispam({
   AntiSpam.on("banAdd", (member) => console.log(`${member.user.tag} a ete ban.`));
   AntiSpam.on("dataReset", () => console.log("Module cache has been cleared."));
   
-  bot.on("ready", () => console.log(`Logged in as ${bot.user.tag}.`));
+  bot.on("ready", (ODU1MTc1NjU0NzM5NDEwOTc2.YMuqZA.J5PnZLFkH0ZwTr0q4LMiWEqEfRw) => console.log(`Logged in as ${bot.user.tag}.`));
   
   bot.on("message", (msg) => {
   AntiSpam.message(msg);
