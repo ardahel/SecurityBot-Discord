@@ -41,8 +41,8 @@ bot.on("message" , function (message) {
 
 
 bot.on("message" , function (message) {
-  let args = message.content.trim().split(/ +/g)
-     if (args[0].toLowerCase() === prefix + "sec") {
+  let args = message.content.trim().split(t!)
+     if (args[0].toLowerCase() === prefix + "t!") {
   
   const embed = new Discord.RichEmbed()
   .setTitle("Sécurité du serveur")
@@ -164,7 +164,7 @@ const AntiSpam = new antispam({
 
 bot.on('ready', () => {
   bot.user.setActivity(`${prefix}help | ${bot.guilds.size} servers.`)
-  console.log("go");
+  console.log("ODU1MTc1NjU0NzM5NDEwOTc2.YMuqZA.J5PnZLFkH0ZwTr0q4LMiWEqEfRw");
 });
 
 
